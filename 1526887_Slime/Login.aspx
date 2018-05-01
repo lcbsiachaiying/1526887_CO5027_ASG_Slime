@@ -10,7 +10,7 @@
             <asp:TextBox ID="TxtLoginEmail" runat="server" style="margin-left: 45px" Width="184px"></asp:TextBox>
         </p>
         <p>Password
-            <asp:TextBox ID="TxtLoginPassword" runat="server" style="margin-left: 16px" Width="187px"></asp:TextBox>
+            <asp:TextBox ID="TxtLoginPassword" runat="server" style="margin-left: 16px" Width="187px" TextMode="Password"></asp:TextBox>
         </p>
         <p>
             <asp:Button ID="BntLogin" runat="server" Height="27px" Text="Button" Width="127px" OnClick="BntLogin_Click" />
@@ -24,10 +24,10 @@
             <asp:TextBox ID="TxtRegEmail" runat="server" style="margin-left: 34px" Width="175px"></asp:TextBox>
         </p>
         <p>Password
-            <asp:TextBox ID="TxtRegPassword" runat="server" style="margin-left: 14px" Width="162px"></asp:TextBox>
+            <asp:TextBox ID="TxtRegPassword" runat="server" style="margin-left: 14px" Width="162px" TextMode="Password"></asp:TextBox>
         </p>
         <p>Confirm Password
-            <asp:TextBox ID="TxtRegConfirmPassword" runat="server" style="margin-left: 22px" Width="162px"></asp:TextBox>
+            <asp:TextBox ID="TxtRegConfirmPassword" runat="server" style="margin-left: 22px" Width="162px" TextMode="Password"></asp:TextBox>
         </p>
         <p>
             <asp:Button ID="BtnReg" runat="server" Height="29px" OnClick="BtnReg_Click" Text="Register" Width="131px" />

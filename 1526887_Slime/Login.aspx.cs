@@ -72,7 +72,7 @@ namespace _1526887_Slime
             var user = new IdentityUser() { UserName = TxtRegEmail.Text };
 
 
-            IdentityRole adminRole = new IdentityRole("Admin");
+            IdentityRole adminRole = new IdentityRole("RegisteredUser");
             roleManager.Create(adminRole);
 
 
@@ -80,7 +80,7 @@ namespace _1526887_Slime
             if (result.Succeeded)
 
             {
-                manager.AddToRole(user.Id, "Admin");
+                manager.AddToRole(user.Id, "RegisteredUser");
                 manager.Update(user);
 
                 LitErrorReg.Text = "User Registration Successful !";

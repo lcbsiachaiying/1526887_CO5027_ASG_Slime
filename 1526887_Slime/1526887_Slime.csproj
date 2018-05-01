@@ -148,6 +148,7 @@
     </Content>
     <Content Include="Master.Master" />
     <Content Include="Admin\Admin.Master" />
+    <Content Include="Admin\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -156,6 +157,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\Index.aspx" />
     <Content Include="CSS\Style.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
@@ -176,6 +178,13 @@
     </Compile>
     <Compile Include="Admin\Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
