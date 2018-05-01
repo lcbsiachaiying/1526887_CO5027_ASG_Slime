@@ -110,6 +110,8 @@
     <Content Include="CSS\Style.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Images\staticmap.PNG" />
+    <Content Include="JS\Map.js" />
     <Content Include="Login.aspx" />
     <Content Include="Pages\About.aspx" />
     <Content Include="Pages\Contact.aspx" />
@@ -169,8 +171,6 @@
   <ItemGroup>
     <Folder Include="Admin\" />
     <Folder Include="App_Data\" />
-    <Folder Include="Images\" />
-    <Folder Include="JS\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
