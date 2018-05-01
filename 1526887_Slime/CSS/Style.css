@@ -1,0 +1,110 @@
+﻿html {
+    background-color: #00ffff;
+}
+
+body {
+    background-repeat: inherit;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+
+#navigation ul li {
+    display: inline;
+    text-decoration: none;
+    text-align: center;
+    padding-right: 50px;
+    font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    font-size: 17px;
+}
+
+    #navigation ul li a:hover {
+        color: red;
+    }
+
+    #navigation ul li a {
+        text-decoration: none;
+        color: #E5E5E5;
+    }
+
+#header {
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    width: auto;
+    height: 220px;
+    background-color: #00ffff;
+}
+
+#content {
+    border: 1px solid #E5E5E5;
+    margin-top: px;
+    background-color: #00ffff;
+    margin: auto;
+    width: 1000px;
+    text-align: center;
+}
+
+#navigation1 {
+    background-color: #565656;
+    width: auto;
+    height: 50px;
+    margin-top: -0.1px;
+    border: 1px solid black;
+}
+
+.banner {
+    background-color: black;
+    height: auto;
+}
+
+.box {
+    background-color: white;
+    height: auto;
+    width: 1000px;
+    border: 2px solid white;
+    margin-top: -15px;
+    margin: auto;
+}
+    .box table {
+        width: auto;
+        margin-top: 20px;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .box td {
+        padding: 7px;
+    }
+
+.bottomnavigator {
+    background-color: gray;
+    width: 1002px;
+    height: 20px;
+    margin-top: -0.1px;
+    margin: auto;
+}
+
+    .bottomnavigator p {
+        text-align: center;
+    } 
+
+#map {
+    height:480px;
+    width: 720px;
+    padding-bottom: 30px;
+}
+
+#static-map {
+    height:480px;
+    width: 720px;
+}
+}
+
+.product-right {
+    display:inline;
+}
+.product-right li img {
+    float:left;
+}

@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="_1526887_Slime.Master" %>
+
+<!DOCType html>
+<head>
+<title> Slime </title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <link href="~/CSS/Style.css" rel="stylesheet" runat="server"/>
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+<div id="content">
+	<div id="header">
+		
+	</div>
+	<div id="navigation1">
+		<div id="navigation">
+			<ul>	
+                <li><a href="/Default.aspx">Home</a></li>
+				<li><a href="Pages/About.aspx">About</a></li>
+				<li><a href="Pages/Contact.aspx">Contact</a></li>
+				<li><a href="login.aspx">Log-In</a></li>
+			</ul>
+		</div>
+	</div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    <footer>
+                <section>
+                    <h3>Slime</h3>
+                    <p><b>+673 2345678</b></p>
+                    <p>Plaza Abdul Razak</p>
+                    <p>Jalan Laksamana Abdul Razak</p>
+                    <p>Bandar Seri Begawan BA 1712</p>
+                    <p>Email:lcbsiachaiying@gmail.com</p>
+                </section>
+                <section>
+                    <h3>Payment Options</h3>
+                    <ul class="payment-option">
+                        <li><img src="" runat="server" alt="Matercard Logo"/></li>
+                        <li><img src="" runat="server" alt="Visa Logo"/></li>
+                        <li><img src="" runat="server" alt="Paypal Logo"/></li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Social Media</h3>
+                    <ul class="social">
+                        <li><img src="" runat="server" alt="Facebook Image"/></li>
+                        <li><img src="" runat="server" alt="Google Plus Image"/></li>
+                        <li><img src="" runat="server" alt="Instagram Image" /></li>
+                    </ul>
+                </section>
+                </footer>
+            <footer class="second">
+                <a href="http://validator.w3.org/check?url=referer">Validate HTML  |  </a>
+                <a href="https://jigsaw.w3.org/css-validator/">Validate CSS  |  </a>
+                <a href="https://achecker.ca/checker/index.php">Check WCAG  |  </a>
+                <a href="">Admin Account</a>
+
+                <p>&copy; Copyright Slime 2018 - All Rights Reserved</p>
+            </footer>
+    </div>
+</body>
